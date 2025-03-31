@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garrafas Stanley</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Stanley.jpg" alt="Stanley logo" height="100" width="auto">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#tipos">Tipos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h1>Sobre as Garrafas Stanley</h1>
+        <p>As garrafas Stanley são conhecidas pela sua durabilidade e design clássico. Elas são perfeitas para quem gosta de aventura ao ar livre, oferecendo capacidade de manter suas bebidas quentes ou frias por longas horas.</p>
+        <button id="informacao-extra">Saiba mais</button>
+        <div id="info-extra" style="display: none;">
+            <p>Fundada em 1913, a Stanley tem se destacado no mercado por oferecer produtos robustos, ideais para viagens, caminhadas e uso diário. Suas garrafas e outros utensílios são feitos de aço inoxidável e têm uma excelente resistência.</p>
+        </div>
+    </section>
+
+    <section id="tipos">
+        <h2>Tipos de Garrafas Stanley</h2>
+        <div class="card">
+            <h3>Garrafa Clássica 1L</h3>
+            <p>Perfeita para viagens longas, mantendo sua bebida quente ou fria por até 24 horas.</p>
+        </div>
+        <div class="card">
+            <h3>Garrafa Stanley 500ml</h3>
+            <p>Compacta e prática para o dia a dia, mantendo a temperatura por até 12 horas.</p>
+        </div>
+        <div class="card">
+            <h3>Garrafa Stanley Adventure</h3>
+            <p>Ideal para quem está sempre em movimento e precisa de uma garrafa resistente e funcional.</p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Garrafas Stanley. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
